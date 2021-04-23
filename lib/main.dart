@@ -3,6 +3,8 @@ import 'package:portfolio_new/view/port_folio_home.dart';
 
 void main() {
   runApp(
-    PortFolioHome(),
+    MaterialApp(
+      home: PortFolioHome(),
+    ),
   );
 }
